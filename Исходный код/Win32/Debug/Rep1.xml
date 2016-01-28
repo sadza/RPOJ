@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.4.3" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42396,6451984838" ReportOptions.Description.Text="" ReportOptions.LastChange="42397,4264153704" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="ADOTable1" DataSetName="ADOTable1"/>
+    <item DataSet="ADOTable2" DataSetName="ADOTable2"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000">
+    <TfrxADODatabase Name="ADODatabase1" DatabaseName="Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\TSkladBase.mdb;Mode=Share Deny None;Jet OLEDB:System database=&#34;&#34;;Jet OLEDB:Registry Path=&#34;&#34;;Jet OLEDB:Database Password=&#34;&#34;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&#34;&#34;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False;" LoginPrompt="False" Connected="True" PropData="05704C65667402300470546F700231"/>
+    <TfrxADOTable Name="ADOTable1" UserName="ADOTable1" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" TableName="ReportType" Database="ADODatabase1" PropData="05704C65667402740470546F700214"/>
+    <TfrxADOTable Name="ADOTable2" UserName="ADOTable2" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" TableName="ReportTable" Database="ADODatabase1" PropData="05704C65667402740470546F700270"/>
+  </TfrxDataPage>
+  <TfrxReportPage Name="Page1" PaperWidth="216" PaperHeight="150" PaperSize="256" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="102,04731" Left="0" Top="18,89765" Width="740,78788">
+      <TfrxMemoView Name="ADOTable2TAB5" Left="544,25232" Top="0" Width="166,29932" Height="18,89765" DataField="TAB5" DataSet="ADOTable2" DataSetName="ADOTable2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable2.&#34;TAB5&#34;]"/>
+      <TfrxMemoView Name="ADOTable1REPORT_TYPE" Left="3,77953" Top="0" Width="264,5671" Height="18,89765" DataField="REPORT_TYPE" DataSet="ADOTable1" DataSetName="ADOTable1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable1.&#34;REPORT_TYPE&#34;]"/>
+      <TfrxMemoView Name="ADOTable2TAB1" Left="343,93723" Top="0" Width="132,28355" Height="18,89765" DataField="TAB1" DataSet="ADOTable2" DataSetName="ADOTable2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable2.&#34;TAB1&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="3,77953" Top="79,37013" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Наименование"/>
+      <TfrxMemoView Name="Memo4" Left="377,953" Top="75,5906" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Количество"/>
+      <TfrxMemoView Name="Memo5" Left="551,81138" Top="71,81107" Width="113,3859" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Дата помещения"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="35,37013" Left="0" Top="181,41744" Width="740,78788" ColumnWidth="0" ColumnGap="0" DataSet="ADOTable2" DataSetName="ADOTable2" RowCount="0">
+      <TfrxMemoView Name="ADOTable2TAB2" Left="7,55906" Top="7,55905999999999" Width="362,83488" Height="18,89765" DataField="TAB2" DataSet="ADOTable2" DataSetName="ADOTable2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable2.&#34;TAB2&#34;]"/>
+      <TfrxMemoView Name="ADOTable2TAB6" Left="389,29159" Top="7,55906000000002" Width="132,28355" Height="18,89765" DataField="TAB6" DataSet="ADOTable2" DataSetName="ADOTable2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable2.&#34;TAB6&#34;]"/>
+      <TfrxMemoView Name="ADOTable2TAB4" Left="551,81138" Top="7,55906000000002" Width="136,06308" Height="18,89765" DataField="TAB4" DataSet="ADOTable2" DataSetName="ADOTable2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable2.&#34;TAB4&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="275,90569" Width="740,78788">
+      <TfrxMemoView Name="Memo1" Left="8,55906" Top="1,85033999999996" Width="105,82684" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Товар получил:"/>
+      <TfrxMemoView Name="ADOTable2TAB3" Left="118,16543" Top="1,85033999999996" Width="600,94527" Height="18,89765" DataField="TAB3" DataSet="ADOTable2" DataSetName="ADOTable2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ADOTable2.&#34;TAB3&#34;]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
